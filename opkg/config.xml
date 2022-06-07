@@ -73,7 +73,11 @@
       </filters>
       <pkg version="3.5.0" rel=">=" >gmetad</pkg>
       <pkg version="3.5.0" rel=">=" >ganglia-monitor</pkg>
+      <pkg version="3.5.0" rel=">=" >ganglia-webfrontend</pkg>
+      <pkg version="3.5.7" rel=">=" >ganglia-modules-linux</pkg>
       <pkg version="3.5.7" rel=">=" >libganglia1</pkg>
+      <pkg>php-gd</pkg>
+      <pkg>php-common</pkg>
     </requires>
   </serverDeps>
   <clientDeps>
@@ -92,10 +96,16 @@
         <dist>debian</dist>
       </filters>
       <pkg version="3.5.0" rel=">=" >ganglia-monitor</pkg>
+      <pkg version="3.5.0" rel=">=" >ganglia-modules-linux</pkg>
     </requires>
   </clientDeps>
   <apiDeps/>
   <changelog>
+    <versionEntry version="3.8.0-1">
+      <changelogEntry authorName="Olivier Lahaye" date="2022-06-07T13:42:54+02:00">
+        <item>Deban packages deps update.</item>
+      </changelogEntry>
+    </versionEntry>
     <versionEntry version="3.7.0-1">
       <changelogEntry authorName="Olivier Lahaye" date="2014-09-11T18:00:27+02:00">
         <item>Add apitests.</item>
